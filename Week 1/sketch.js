@@ -8,11 +8,14 @@ fill('blue')
     ellipse(300,300,600);
     //eyes
 fill('#f4d85d')
-arc(150, 50, 50, 75, 0, PI + 1);
 
     ellipse(150, 230, 150, 75);
      ellipse(450, 230, 150, 75);
+    
     //nose
-    triangle(30, 75, 58, 20, 86, 75);
-    line(90,515,300,515);
+    triangle(270, 75+325, 298, 20+325, 326, 75+325);
+    
+    strokeWeight(10);
+    stroke("silver");
+    line(100,450,380,450);
 }
