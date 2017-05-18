@@ -32,11 +32,11 @@ var spaceshipSpeed = [];
 var spaceshipColor = [];
 
 var explodeShips = false;
-
+var Space;
 function setup(){
 x=random( 12, 72);
 y=random( 24, 84);
-
+Space=loadImage("images/Space.jpg")
 createCanvas(640, 500); //Picture size 500 x 500
 noStroke(); //Shapes have no strokes, only fills
     
@@ -59,7 +59,7 @@ noStroke(); //Shapes have no strokes, only fills
 }
 
 function draw(){
-    background("black");
+    background(Space);
     
     // monster
 fill(body);
